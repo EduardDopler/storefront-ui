@@ -14,7 +14,7 @@ export default {
       default: ""
     },
     /**
-     * Alert type ("secondary", "info", "success", "warning", "danger"). Check "Knobs" section to see how they look like.
+     * Alert type ("secondary", "info", "success", "warning", "danger").
      */
     type: {
       type: String,
