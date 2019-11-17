@@ -3,16 +3,12 @@ import SfButton from "../../atoms/SfButton/SfButton.vue";
 export default {
   name: "SfBanner",
   props: {
-    /**
-     * Banner title
-     */
+    /** Banner title */
     title: {
       type: String,
       default: ""
     },
-    /**
-     * Banner subtitle (at the top)
-     */
+    /** Banner subtitle */
     subtitle: {
       type: String,
       default: ""
@@ -21,12 +17,12 @@ export default {
       type: String,
       default: ""
     },
-    /** text that will be displayed inside the button. You can replace the button  with "call-to-action" slot */
+    /** Button text */
     buttonText: {
       type: String,
       default: ""
     },
-    /** Background color in HEX (eg #FFFFFF) */
+    /** Background color (any CSS color value) */
     background: {
       type: String,
       default: ""
